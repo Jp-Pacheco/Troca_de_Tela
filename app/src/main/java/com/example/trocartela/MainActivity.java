@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void CarregarTelaPrincipal() {
-        setContentView(R.layout.tela2);
+        setContentView(R.layout.activity_main);
         btTela2 = (Button) findViewById(R.id.btTela2);
 
         btTela2.setOnClickListener(new View.OnClickListener() {
